@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap");
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1px;
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 500; */
+
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 50%;
+  min-width: 375px;
+  max-width: 475px;
+  margin: 2rem auto;
+  border: 1px solid #3829e0;
+  background-color: white;
+
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.inner__container {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.title {
+  font-weight: 900;
+  color: black;
+}
+
+.text {
+  margin-top: 1rem;
+  line-height: 1.75rem;
+  color: #7280a7;
+}
+
+.cost {
+  padding: 0.75rem;
+  background-color: #f9f9fc;
+  text-align: left;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pay-plan p {
+  margin-top: 0.5rem;
+  color: #7280a7;
+}
+
+.change {
+  color: darkblue;
+}
+
+.pay__button {
+  padding: 1rem 0;
+  border-radius: 20px;
+  background-color: #3829e0;
+  box-shadow: 0 10px 25px #aaaaaa;
+}
+
+.pay__button:hover {
+  background-color: #1f2f56;
+}
+
+.pay__button a {
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.cancle__button {
+  padding: 1rem 0;
+}
+
+.cancle__button a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #909090;
+}
